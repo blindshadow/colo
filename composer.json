@@ -1,0 +1,24 @@
+{
+    "name": "blindshadow/colo",
+    "keywords": ["console", "blog"],
+    "homepage": "http://colo.io/",
+    "authors":[
+        {
+            "name": "Chaos Yeo",
+            "email": "blindshadow@foxmail.com",
+            "homepage": "http://blindshadow.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/console": "^2.7",
+        "symfony/finder": "^2.7",
+        "symfony/filesystem": "^2.7",
+        "symfony/process": "^2.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "Colo": "source/"
+        }
+    }
+}
